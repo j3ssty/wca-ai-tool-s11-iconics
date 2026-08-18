@@ -33,7 +33,7 @@ Return ONLY valid JSON in this format:
 
     try:
         response = client.responses.create(
-            model="gpt-5.5",
+            model="gpt-5-mini",
             input=prompt
         )
 
